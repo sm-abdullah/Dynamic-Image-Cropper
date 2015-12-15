@@ -1,4 +1,10 @@
 # Dynamic-Image-Cropper
 Dynamic-Image-Cropper Crop image dynamically built on asp.net mvc Generic Handler 
 
-With Dynamic Image croper you can create a RuntTime URL which returns you Cropped Image.
+With Dynamic Image cropper you can create a Runt Time URL which returns you Cropped Image.
+Here is the Route to Crop image On the fly.
+
+http://localhost:324/cropImages/{x}-{y}-{h}-{w}-{imgName}
+
+you have to specify the left top height and width finallay image Path located on the server 
+respectively 
