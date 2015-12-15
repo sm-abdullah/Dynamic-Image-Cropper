@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+         <h2> Image with No Crop </h2>
+         <h2> URL : ~/Images/nature.jpg </h2>
+         <img style="height:300px;width:300px" src="~/Images/nature.jpg" />
+          <h1>Generate Route : cropImages/{x}-{y}-{h}-{w}-{imgName}</h1>
+          <h2> Image Croped with Height:400 , Width:400, Top : 150, Left : 150 </h2>
+          <h3>URL :  /cropImages/150-150-400-400-nature.jpg</h3>
+         <img style="height:300px;width:300px" src="/cropImages/150-150-400-400-nature.jpg" />
+         <h2> Image Croped with Height:400 , Width:400, Top : 300, Left : 300 </h2>
+         <h3>URL :  /cropImages/300-300-400-400-nature.jpg</h3>
+         <img style="height:300px;width:300px" src="/cropImages/300-300-400-400-nature.jpg" />
+         <h2> Error Occured while croping </h2>
+         <h3>URL :  /cropImages/300a-3a00-400-400-nature.jpg</h3>
+         <img  src="/cropImages/300a-3a00-400-400-nature.jpg" />
+    </div>
+</body>
+</html>
