@@ -8,3 +8,6 @@ http://localhost:324/cropImages/{x}-{y}-{h}-{w}-{imgName}
 
 you have to specify the left top height and width finallay image Path located on the server 
 respectively 
+
+
+read more at http://www.codingsack.com/2015/12/20/run-time-crop-images-with-asp-net-mvc-generic-handler/ 
